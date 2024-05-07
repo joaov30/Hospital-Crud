@@ -2,16 +2,16 @@
   {
     "ContainingType": "ApiHospital.Pacientes.PacienteRotas\u002B\u003C\u003Ec",
     "Method": "\u003CAddPacientesRotas\u003Eb__0_0",
-    "RelativePath": "Pacientes",
+    "RelativePath": "pacientes",
     "HttpMethod": "GET",
     "IsController": false,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.String",
+        "Type": "ApiHospital.Model.Paciente",
         "MediaTypes": [
-          "text/plain"
+          "application/json"
         ],
         "StatusCode": 200
       }

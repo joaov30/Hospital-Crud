@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "J:\\TI\\Projetos\\Hospital-Crud-JV\\Hospital-Crud\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7487457D-677A-4FA2-8407-19B29DADA1A6}|back-end\\ApiHospital\\ApiHospital.csproj|j:\\ti\\projetos\\hospital-crud-jv\\hospital-crud\\back-end\\apihospital\\model\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7487457D-677A-4FA2-8407-19B29DADA1A6}|back-end\\ApiHospital\\ApiHospital.csproj|solutionrelative:back-end\\apihospital\\model\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7487457D-677A-4FA2-8407-19B29DADA1A6}|back-end\\ApiHospital\\ApiHospital.csproj|j:\\ti\\projetos\\hospital-crud-jv\\hospital-crud\\back-end\\apihospital\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7487457D-677A-4FA2-8407-19B29DADA1A6}|back-end\\ApiHospital\\ApiHospital.csproj|solutionrelative:back-end\\apihospital\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7487457D-677A-4FA2-8407-19B29DADA1A6}|back-end\\ApiHospital\\ApiHospital.csproj|j:\\ti\\projetos\\hospital-crud-jv\\hospital-crud\\back-end\\apihospital\\pacientes\\pacienterotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,6 +13,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{7487457D-677A-4FA2-8407-19B29DADA1A6}|back-end\\ApiHospital\\ApiHospital.csproj|j:\\ti\\projetos\\hospital-crud-jv\\hospital-crud\\back-end\\apihospital\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7487457D-677A-4FA2-8407-19B29DADA1A6}|back-end\\ApiHospital\\ApiHospital.csproj|solutionrelative:back-end\\apihospital\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7487457D-677A-4FA2-8407-19B29DADA1A6}|back-end\\ApiHospital\\ApiHospital.csproj|j:\\ti\\projetos\\hospital-crud-jv\\hospital-crud\\back-end\\apihospital\\model\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7487457D-677A-4FA2-8407-19B29DADA1A6}|back-end\\ApiHospital\\ApiHospital.csproj|solutionrelative:back-end\\apihospital\\model\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,19 +26,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Paciente.cs",
               "DocumentMoniker": "J:\\TI\\Projetos\\Hospital-Crud-JV\\Hospital-Crud\\back-end\\ApiHospital\\Model\\Paciente.cs",
               "RelativeDocumentMoniker": "back-end\\ApiHospital\\Model\\Paciente.cs",
               "ToolTip": "J:\\TI\\Projetos\\Hospital-Crud-JV\\Hospital-Crud\\back-end\\ApiHospital\\Model\\Paciente.cs",
               "RelativeToolTip": "back-end\\ApiHospital\\Model\\Paciente.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAxwBAAAAApAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T18:57:08.046Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "J:\\TI\\Projetos\\Hospital-Crud-JV\\Hospital-Crud\\back-end\\ApiHospital\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "back-end\\ApiHospital\\Data\\AppDbContext.cs",
+              "ToolTip": "J:\\TI\\Projetos\\Hospital-Crud-JV\\Hospital-Crud\\back-end\\ApiHospital\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "back-end\\ApiHospital\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T20:54:56.193Z",
               "EditorCaption": ""
             },
             {
@@ -51,14 +69,6 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "PacienteRotas.cs",
@@ -66,7 +76,7 @@
               "RelativeDocumentMoniker": "back-end\\ApiHospital\\Pacientes\\PacienteRotas.cs",
               "ToolTip": "J:\\TI\\Projetos\\Hospital-Crud-JV\\Hospital-Crud\\back-end\\ApiHospital\\Pacientes\\PacienteRotas.cs",
               "RelativeToolTip": "back-end\\ApiHospital\\Pacientes\\PacienteRotas.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAACKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T18:49:42.148Z",
               "EditorCaption": ""

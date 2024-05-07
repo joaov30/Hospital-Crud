@@ -15,5 +15,17 @@
         public string Telefone { get; set; }
 
         public string Email { get; set; }
+
+        public Paciente(string nome, string dataNascimento, string genero, string endereco, string telefone, string email)
+        {
+            Id = Guid.NewGuid();
+            Nome = nome;
+            DataNascimento = dataNascimento;
+            Genero = genero;
+            Endereco = endereco;
+            Telefone = telefone;
+            Email = email;
+
+        }
     }
 }
