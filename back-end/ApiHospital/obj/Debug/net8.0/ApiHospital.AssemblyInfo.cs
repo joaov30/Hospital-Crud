@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiHospital")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5adedd3f5a9fea053b1b665442bd49e59e17b4d4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+459dc070bbb622a5947056b2ca23adb8da7df454")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiHospital")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiHospital")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

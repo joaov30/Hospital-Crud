@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "GI7JZs24Sva9DxWX41KTkz6DFewQ6WLPpLZ9qbR3FTr4N/r0Hlczg9M4iojbSv9MDFOjt7wu2OIG+LsUV5n5sA==",
+  "dgSpecHash": "SXFl4mdpINXSA+BH44UDNPEY4Gl/RtQKgRNk/ufoe9Db0apY03v/llt8PThIE6WXAYEGaMV6Ir34ifeokA/+Lw==",
   "success": true,
   "projectFilePath": "J:\\TI\\Projetos\\Hospital-Crud-JV\\Hospital-Crud\\back-end\\ApiHospital\\ApiHospital.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joaov\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
-    "C:\\Users\\joaov\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.2\\microsoft.aspnetcore.openapi.8.0.2.nupkg.sha512",
+    "C:\\Users\\joaov\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.4\\microsoft.aspnetcore.openapi.8.0.4.nupkg.sha512",
     "C:\\Users\\joaov\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\joaov\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
     "C:\\Users\\joaov\\.nuget\\packages\\microsoft.codeanalysis.common\\4.5.0\\microsoft.codeanalysis.common.4.5.0.nupkg.sha512",
@@ -20,6 +20,7 @@
     "C:\\Users\\joaov\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.4\\microsoft.entityframeworkcore.relational.8.0.4.nupkg.sha512",
     "C:\\Users\\joaov\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\8.0.4\\microsoft.entityframeworkcore.sqlite.8.0.4.nupkg.sha512",
     "C:\\Users\\joaov\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\8.0.4\\microsoft.entityframeworkcore.sqlite.core.8.0.4.nupkg.sha512",
+    "C:\\Users\\joaov\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\8.0.4\\microsoft.entityframeworkcore.tools.8.0.4.nupkg.sha512",
     "C:\\Users\\joaov\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\joaov\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\joaov\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
