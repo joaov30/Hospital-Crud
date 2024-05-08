@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "J:\\TI\\Projetos\\Hospital-Crud-JV\\Hospital-Crud\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7487457D-677A-4FA2-8407-19B29DADA1A6}|back-end\\ApiHospital\\ApiHospital.csproj|j:\\ti\\projetos\\hospital-crud-jv\\hospital-crud\\back-end\\apihospital\\model\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7487457D-677A-4FA2-8407-19B29DADA1A6}|back-end\\ApiHospital\\ApiHospital.csproj|solutionrelative:back-end\\apihospital\\model\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7487457D-677A-4FA2-8407-19B29DADA1A6}|back-end\\ApiHospital\\ApiHospital.csproj|j:\\ti\\projetos\\hospital-crud-jv\\hospital-crud\\back-end\\apihospital\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7487457D-677A-4FA2-8407-19B29DADA1A6}|back-end\\ApiHospital\\ApiHospital.csproj|solutionrelative:back-end\\apihospital\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Paciente.cs",
-              "DocumentMoniker": "J:\\TI\\Projetos\\Hospital-Crud-JV\\Hospital-Crud\\back-end\\ApiHospital\\Model\\Paciente.cs",
-              "RelativeDocumentMoniker": "back-end\\ApiHospital\\Model\\Paciente.cs",
-              "ToolTip": "J:\\TI\\Projetos\\Hospital-Crud-JV\\Hospital-Crud\\back-end\\ApiHospital\\Model\\Paciente.cs",
-              "RelativeToolTip": "back-end\\ApiHospital\\Model\\Paciente.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "J:\\TI\\Projetos\\Hospital-Crud-JV\\Hospital-Crud\\back-end\\ApiHospital\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "back-end\\ApiHospital\\Data\\AppDbContext.cs",
+              "ToolTip": "J:\\TI\\Projetos\\Hospital-Crud-JV\\Hospital-Crud\\back-end\\ApiHospital\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "back-end\\ApiHospital\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T23:37:00.683Z",
+              "WhenOpened": "2024-05-08T00:44:35.178Z",
               "EditorCaption": ""
             }
           ]
