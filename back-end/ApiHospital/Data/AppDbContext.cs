@@ -5,7 +5,7 @@ namespace ApiHospital.Data
 {
     public class AppDbContext : DbContext
     {
-       private DbSet<Paciente> pacientes { get; set; }
+       public DbSet<Paciente> Pacientes { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

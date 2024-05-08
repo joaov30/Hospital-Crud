@@ -1,5 +1,6 @@
+using ApiHospital.Controller;
 using ApiHospital.Data;
-using ApiHospital.Pacientes;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,7 +21,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.AddPacientesRotas();
+app.AddPacienteController();
 
 app.Run();
 

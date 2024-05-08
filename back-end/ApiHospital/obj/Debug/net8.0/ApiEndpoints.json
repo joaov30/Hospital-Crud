@@ -1,18 +1,22 @@
 [
   {
-    "ContainingType": "ApiHospital.Pacientes.PacienteRotas\u002B\u003C\u003Ec",
-    "Method": "\u003CAddPacientesRotas\u003Eb__0_0",
-    "RelativePath": "pacientes",
-    "HttpMethod": "GET",
+    "ContainingType": "ApiHospital.Controller.PacienteController\u002B\u003C\u003Ec",
+    "Method": "\u003CAddPacienteController\u003Eb__0_0",
+    "RelativePath": "pacientes/",
+    "HttpMethod": "POST",
     "IsController": false,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ApiHospital.Model.PacienteRequest",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": [
       {
-        "Type": "ApiHospital.Model.Paciente",
-        "MediaTypes": [
-          "application/json"
-        ],
+        "Type": "System.Void",
+        "MediaTypes": [],
         "StatusCode": 200
       }
     ]
