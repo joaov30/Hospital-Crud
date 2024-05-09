@@ -1,5 +1,6 @@
 ﻿using ApiHospital.Data;
 using ApiHospital.Model;
+using Microsoft.EntityFrameworkCore;
 
 namespace ApiHospital.Controller
 {
@@ -20,6 +21,24 @@ namespace ApiHospital.Controller
             });
 
             //retornar Todos
+            pacientesRotas.MapGet("", async (AppDbContext context) =>
+            {
+                var pacientes = await context.Pacientes.ToListAsync();
+                return Results.Ok(pacientes);
+            });
+
+
+            //retornar um paciente em especifico
+            pacientesRotas.MapGet("/{id}", async (Guid id, AppDbContext context) =>
+            {
+                var pacienteExistente = await context.Pacientes.FindAsync(id);
+
+                if(pacienteExistente == null)
+                {
+                    return Results.NotFound();
+                }
+                return Results.Ok(pacienteExistente);
+            });
           
 
            
