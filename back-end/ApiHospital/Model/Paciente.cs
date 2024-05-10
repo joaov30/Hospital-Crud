@@ -9,7 +9,7 @@ namespace ApiHospital.Model
 
         [Required(ErrorMessage = "O nome do paciente é obrigatório.")]
         [StringLength(100, MinimumLength = 2, ErrorMessage = "O nome do paciente deve ter entre 2 e 100 caracteres.")]
-        public string Nome { get; init; }
+        public string Nome { get; set; }
 
         [Required(ErrorMessage = "A data de nascimento do paciente é obrigatória.")]
         [DataType(DataType.Date)]

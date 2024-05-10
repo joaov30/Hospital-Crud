@@ -12,7 +12,7 @@ namespace ApiHospital.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "pacientes",
+                name: "Pacientes",
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "TEXT", nullable: false),
@@ -25,7 +25,7 @@ namespace ApiHospital.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_pacientes", x => x.Id);
+                    table.PrimaryKey("PK_Pacientes", x => x.Id);
                 });
         }
 
@@ -33,7 +33,7 @@ namespace ApiHospital.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "pacientes");
+                name: "Pacientes");
         }
     }
 }

@@ -52,7 +52,7 @@ namespace ApiHospital.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("pacientes");
+                    b.ToTable("Pacientes");
                 });
 #pragma warning restore 612, 618
         }

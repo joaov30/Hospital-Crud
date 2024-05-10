@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ApiHospital.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240507233643_Initial")]
+    [Migration("20240510202129_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -55,7 +55,7 @@ namespace ApiHospital.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("pacientes");
+                    b.ToTable("Pacientes");
                 });
 #pragma warning restore 612, 618
         }

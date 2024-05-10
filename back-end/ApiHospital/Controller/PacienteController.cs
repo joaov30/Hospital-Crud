@@ -35,11 +35,31 @@ namespace ApiHospital.Controller
 
                 if(pacienteExistente == null)
                 {
-                    return Results.NotFound();
+                    return Results.NotFound("Paciente Não Encontrado");
                 }
                 return Results.Ok(pacienteExistente);
             });
 
+
+            //Alterar Dados de Um Paciente
+            pacientesRotas.MapPut("/{id}", async (Guid id, PacienteRequest request ,AppDbContext context) =>
+            {
+                var pacienteEncontrado = await context.Pacientes.FindAsync(id);
+
+                if (pacienteEncontrado == null)
+                {
+                    return Results.NotFound("Id Não Encontrado");
+                }
+                pacienteEncontrado.Nome = request.nome;
+                pacienteEncontrado.DataNascimento = request.dataNascimento;
+                pacienteEncontrado.Genero = request.genero;
+                pacienteEncontrado.Endereco = request.endereco;
+                pacienteEncontrado.Telefone = request.telefone;
+                pacienteEncontrado.Email = request.email;
+
+                await context.SaveChangesAsync();
+                return Results.Ok();
+            });
 
 
             //Deletar Paciente
