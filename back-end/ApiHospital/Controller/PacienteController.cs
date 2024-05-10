@@ -39,8 +39,22 @@ namespace ApiHospital.Controller
                 }
                 return Results.Ok(pacienteExistente);
             });
-          
 
+
+
+            //Deletar Paciente
+            pacientesRotas.MapDelete("/{id}", async (Guid id, AppDbContext context) =>
+            {
+                var pacienteExiste = await context.Pacientes.FindAsync(id);
+
+                if(pacienteExiste == null)
+                {
+                    return Results.NotFound();
+                }
+                 context.Pacientes.Remove(pacienteExiste);
+                await context.SaveChangesAsync();
+                return Results.Ok();
+            });
            
             
         }
