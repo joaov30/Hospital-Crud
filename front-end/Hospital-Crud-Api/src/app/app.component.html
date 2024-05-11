@@ -1,1 +1,10 @@
-<h1>Cadastro de Pacientes JV</h1>
+<h1 style="align-items: center;">Cadastro de Pacientes JV</h1>
+
+<p *ngFor="let pacientes of pacientes$ | async">
+  Nome: {{pacientes.nome}},
+  Nascimento: {{pacientes.dataNascimento}},
+  Genero: {{pacientes.genero}},
+  Endereço: {{pacientes.endereco}},
+  Telefone: {{pacientes.telefone}},
+  Email: {{pacientes.telefone}}
+</p>

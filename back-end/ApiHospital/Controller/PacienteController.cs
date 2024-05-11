@@ -6,7 +6,7 @@ namespace ApiHospital.Controller
 {
     public static class PacienteController
     {
-        public static void AddPacienteController(this WebApplication app)
+        public static void PacienteRotas(this WebApplication app)
         {
             var pacientesRotas = app.MapGroup("pacientes");
             
