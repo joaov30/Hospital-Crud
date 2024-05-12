@@ -51,8 +51,7 @@
               "RelativeToolTip": "back-end\\ApiHospital\\Model\\Paciente.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T19:52:02.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-11T19:52:02.786Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "back-end\\ApiHospital\\Controller\\PacienteController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T19:41:55.986Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-11T19:41:55.986Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "back-end\\ApiHospital\\Program.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAB8AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T19:38:57.335Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-11T19:38:57.335Z"
             }
           ]
         }
