@@ -4,20 +4,15 @@
 
 <br>
 
-<div>
-  <input type="search">
+
+
+<div class="container-1">
+  <h1>Pesquisar</h1>
+    <input type="text">
+
 </div>
 
-<p *ngFor="let pacientes of pacientes$ | async">
-  Nome: {{pacientes.nome}},
-  Nascimento: {{pacientes.dataNascimento}},
-  Genero: {{pacientes.genero}},
-  Endereço: {{pacientes.endereco}},
-  Telefone: {{pacientes.telefone}},
-  Email: {{pacientes.telefone}}
-</p>
-
-
+<div class="main-table">
 <table mat-table [dataSource]="tabela" class="mat-elevation-z8">
 
   <!-- Nome Column -->
@@ -60,5 +55,6 @@
   <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
 </table>
 
+</div>
 
 

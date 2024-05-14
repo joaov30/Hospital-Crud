@@ -6,22 +6,26 @@ import { Paciente } from '../models/paciente';
 import { Observable } from 'rxjs';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatTableDataSource, MatTableModule } from '@angular/material/table';
+import { MatInputModule } from '@angular/material/input';
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, MatToolbarModule, MatTableModule],
+  imports: [CommonModule, MatToolbarModule, MatTableModule, MatInputModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
 export class AppComponent implements OnInit {
 
+  constructor() {
+    this.tabela = new MatTableDataSource<Paciente>([]);
+  }
   title = 'Hospital-Crud-Api';
   http = inject(HttpClient);
   urlApi = 'https://localhost:7165'
   pacientes$?: Observable<Paciente[]>;
-  tabela: MatTableDataSource<Paciente> | undefined;
+  tabela: MatTableDataSource<Paciente>;
   displayedColumns = ['nome', 'dataNascimento', 'genero', 'endereco', 'telefone', 'email'];
 
   ngOnInit(): void {
