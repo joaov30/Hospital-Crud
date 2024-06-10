@@ -7,12 +7,13 @@ import { Observable } from 'rxjs';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatTableDataSource, MatTableModule } from '@angular/material/table';
 import { MatInputModule } from '@angular/material/input';
+import { MatButtonModule } from '@angular/material/button';
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, MatToolbarModule, MatTableModule, MatInputModule],
+  imports: [CommonModule, MatToolbarModule, MatTableModule, MatInputModule, MatButtonModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
@@ -39,4 +40,8 @@ export class AppComponent implements OnInit {
       this.tabela = new MatTableDataSource<Paciente>(pacientes);
     });
   }
+
+
+
+
 }

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "J:\\TI\\Projetos\\Hospital-Crud-JV\\Hospital-Crud\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7487457D-677A-4FA2-8407-19B29DADA1A6}|back-end\\ApiHospital\\ApiHospital.csproj|j:\\ti\\projetos\\hospital-crud-jv\\hospital-crud\\back-end\\apihospital\\controller\\pacientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7487457D-677A-4FA2-8407-19B29DADA1A6}|back-end\\ApiHospital\\ApiHospital.csproj|solutionrelative:back-end\\apihospital\\controller\\pacientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7487457D-677A-4FA2-8407-19B29DADA1A6}|back-end\\ApiHospital\\ApiHospital.csproj|j:\\ti\\projetos\\hospital-crud-jv\\hospital-crud\\back-end\\apihospital\\model\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7487457D-677A-4FA2-8407-19B29DADA1A6}|back-end\\ApiHospital\\ApiHospital.csproj|solutionrelative:back-end\\apihospital\\model\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7487457D-677A-4FA2-8407-19B29DADA1A6}|back-end\\ApiHospital\\ApiHospital.csproj|j:\\ti\\projetos\\hospital-crud-jv\\hospital-crud\\back-end\\apihospital\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7487457D-677A-4FA2-8407-19B29DADA1A6}|back-end\\ApiHospital\\ApiHospital.csproj|solutionrelative:back-end\\apihospital\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7487457D-677A-4FA2-8407-19B29DADA1A6}|back-end\\ApiHospital\\ApiHospital.csproj|j:\\ti\\projetos\\hospital-crud-jv\\hospital-crud\\back-end\\apihospital\\controller\\pacientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7487457D-677A-4FA2-8407-19B29DADA1A6}|back-end\\ApiHospital\\ApiHospital.csproj|solutionrelative:back-end\\apihospital\\controller\\pacientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PacienteRequest.cs",
               "DocumentMoniker": "J:\\TI\\Projetos\\Hospital-Crud-JV\\Hospital-Crud\\back-end\\ApiHospital\\Model\\PacienteRequest.cs",
               "RelativeDocumentMoniker": "back-end\\ApiHospital\\Model\\PacienteRequest.cs",
@@ -38,37 +38,36 @@
               "RelativeToolTip": "back-end\\ApiHospital\\Model\\PacienteRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T19:52:05.604Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-11T19:52:05.604Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Paciente.cs",
               "DocumentMoniker": "J:\\TI\\Projetos\\Hospital-Crud-JV\\Hospital-Crud\\back-end\\ApiHospital\\Model\\Paciente.cs",
               "RelativeDocumentMoniker": "back-end\\ApiHospital\\Model\\Paciente.cs",
               "ToolTip": "J:\\TI\\Projetos\\Hospital-Crud-JV\\Hospital-Crud\\back-end\\ApiHospital\\Model\\Paciente.cs",
               "RelativeToolTip": "back-end\\ApiHospital\\Model\\Paciente.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA1wAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T19:52:02.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-11T19:52:02.786Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "PacienteController.cs",
               "DocumentMoniker": "J:\\TI\\Projetos\\Hospital-Crud-JV\\Hospital-Crud\\back-end\\ApiHospital\\Controller\\PacienteController.cs",
               "RelativeDocumentMoniker": "back-end\\ApiHospital\\Controller\\PacienteController.cs",
               "ToolTip": "J:\\TI\\Projetos\\Hospital-Crud-JV\\Hospital-Crud\\back-end\\ApiHospital\\Controller\\PacienteController.cs",
               "RelativeToolTip": "back-end\\ApiHospital\\Controller\\PacienteController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAEMAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T19:41:55.986Z"
+              "WhenOpened": "2024-05-11T19:41:55.986Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "J:\\TI\\Projetos\\Hospital-Crud-JV\\Hospital-Crud\\back-end\\ApiHospital\\Program.cs",
               "RelativeDocumentMoniker": "back-end\\ApiHospital\\Program.cs",
